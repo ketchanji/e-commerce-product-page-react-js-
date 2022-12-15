@@ -1,11 +1,12 @@
 import React from 'react';
 import '../index.css';
+import cart from '../cart.svg';
 
 const Button = () => {
     return ( 
         <div>
         <button title='Add to cart'> 
-            <img src="/images/icon-cart.svg" alt="" />
+            <img src={cart} alt="" />
             Add to cart
         </button>
         </div>
