@@ -250,13 +250,13 @@ button{
     margin-top: 50px;
     border-radius: 10px;
   }
-  .bottom {
+  .join{
     width: 80%;
     height: 10vh;
     margin: auto;
     margin-top: 30px;
     display: flex;
-    column-gap: 20px;
+    column-gap: 30px;
     align-items: center;
   }
   .carry {
@@ -276,6 +276,296 @@ button{
   }
   .math{
     width: 250px;
+    height: 8vh;
+  }
+  .math img{
+    width: 15px;
+  }
+  .math span{
+    font-size: 35px;
+    font-weight: 800;
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  ul {
+    display: none;
+  }
+  .container {
+    width: 95%;
+    height: 83vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container1 {
+    width: 100%;
+    height: 83vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .container2 {
+    width: 100%;
+    height: 83vh;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+  }
+  .upper {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .bottom img {
+    width: 400%;
+    height: 10vh;
+    margin-top: -1.5rem;
+    border-radius: 10px;
+  }
+  .join{
+    width: 90%;
+    height: 12vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+  .carry {
+    width: 70%;
+    height: 50vh;
+    margin-top: 55px;
+    margin-left: 30px;
+  }  
+  .buttons{
+    width: 120%;
+    height: 8vh;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .math{
+    width: 250px;
+    height: 8vh;
+  }
+  .math img{
+    width: 15px;
+  }
+  .math span{
+    font-size: 35px;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .logo {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .container {
+    width: 95%;
+    height: 83vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container1 {
+    width: 100%;
+    height: 83vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .container2 {
+    width: 100%;
+    height: 83vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .upper {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .bottom img {
+    width: 400%;
+    height: 10vh;
+    margin-top: -1.5rem;
+    border-radius: 10px;
+  }
+  .join{
+    width: 90%;
+    height: 12vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+  .carry {
+    width: 70%;
+    height: 50vh;
+    margin-top: 55px;
+    margin-left: 30px;
+  }  
+  .carry h1 {
+    width: 270px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .carry span {
+    font-size: 15px;
+    color: rgb(151, 150, 150);
+  }
+  .price{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+  .price span{
+    color: hsl(26, 100%, 55%);
+  }
+  .buttons{
+    width: 120%;
+    height: 8vh;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button{
+    width: 130px;
+    height: 9vh;
+    display: flex;
+    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+}
+  .math{
+    width: 130px;
+    height: 8vh;
+  }
+  .math img{
+    width: 15px;
+  }
+  .math span{
+    font-size: 35px;
+    font-weight: 800;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logo {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .container {
+    width: 100%;
+    height: 83vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container1 {
+    width: 100%;
+    height: 83vh;
+    background-color: rgb(255, 255, 255);
+  }
+  .container2 {
+    width: 100%;
+    height: 83vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .upper {
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+  .bottom img {
+    width: 400%;
+    height: 10vh;
+    margin-top: -1.5rem;
+    border-radius: 10px;
+  }
+  .join{
+    width: 90%;
+    height: 12vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+  }
+  .carry {
+    width: 70%;
+    height: 50vh;
+    margin-top: 55px;
+    margin-left: 30px;
+  }  
+  .carry h1 {
+    width: 270px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .carry span {
+    font-size: 15px;
+    color: rgb(151, 150, 150);
+  }
+  .price{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+  .price span{
+    color: hsl(26, 100%, 55%);
+  }
+  .buttons{
+    width: 120%;
+    height: 8vh;
+    margin-top: 30px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  button{
+    width: 130px;
+    height: 9vh;
+    display: flex;
+    column-gap: 4px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 10px;
+    background-color: hsl(26, 100%, 55%);
+    color: #fff;
+}
+  .math{
+    width: 130px;
     height: 8vh;
   }
   .math img{

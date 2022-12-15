@@ -14,7 +14,6 @@ const Contain = (props) => {
             <div className="container1">
                 <UpperCard />
                 <div className="join">
-
                     {productImages.map((image) => <ButtomCard imageData={image} />)}
                 </div>
 
