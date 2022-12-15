@@ -1,18 +1,22 @@
 import React from 'react';
 import Button from './Button';
-import product1 from '../product1.jpg';
 import plus from '../plus.svg';
 import minus from '../minus.svg';
 import ButtomCard from './ButtomCard';
+import UpperCard from './UpperCard';
 
 const Contain = (props) => {
     return ( 
         <div className="container">
             <div className="container1">
-                <div className="upper">
-                    <img src={product1} alt="" />
-                </div>
+                <UpperCard />
+                <div className="join">
                 <ButtomCard />
+                <ButtomCard />
+                <ButtomCard />
+                <ButtomCard />
+                </div>
+                
             </div>
             <div className="container2">
                 <div className="carry">

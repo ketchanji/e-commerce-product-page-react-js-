@@ -108,8 +108,17 @@ hr {
   height: 10vh;
   border-radius: 25px;
 }
+.join{
+  width: 53%;
+  height: 10vh;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  column-gap: 30px;
+  align-items: center;
+}
 .bottom img {
-  width: 100%;
+  width: 450%;
   height: 10vh;
   border-radius: 10px;
 }
@@ -187,6 +196,7 @@ hr {
     font-size: 40px;
     font-weight: 800;
 }
+
 
 button{
     width: 150px;
