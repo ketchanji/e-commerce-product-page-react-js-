@@ -37,7 +37,7 @@ const Contain = (props) => {
                             <span>0</span>
                             <img src={minus} alt="" />
                         </div>
-                        <Button />
+                        <Button text="Add To Cart"/>
                     </div>
                 </div>
             </div>

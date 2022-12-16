@@ -1,15 +1,13 @@
 import React from 'react';
 import '../index.css';
-import cart from '../cart.svg';
 
-const Button = () => {
+const Button = (props) => {
+    const handleClick = () => {
+        console.log(props.text);
+    };
     return ( 
-        <div>
-        <button title='Add to cart'> 
-            <img src={cart} alt="" />
-            Add to cart
+        <button className='btn' onClick={ handleClick }>{ props.text }    
         </button>
-        </div>
      );
 }
  
